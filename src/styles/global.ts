@@ -10,6 +10,7 @@ const GlobalStyle = createGlobalStyle`
         --blue: #5429CC;
         --blue-light: #6933ff;
         --text-title: #363f5f;
+        --green: #33cc95;
         --shape: #FFFFFF;
     }
 
@@ -64,4 +65,4 @@ const GlobalStyle = createGlobalStyle`
 
 `
 
-export { GlobalStyle }
+export { GlobalStyle };
