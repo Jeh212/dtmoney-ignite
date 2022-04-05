@@ -1,10 +1,14 @@
+import { useEffect } from "react";
+import { api } from '../../services/axios';
 import { Container } from "./styles";
-
 
 
 
 function TransactionTable() {
 
+    useEffect(() => {
+        api.get('transactions').then(data => console.log(data))
+    }, []);
 
 
     return (
